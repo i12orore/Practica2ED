@@ -1,4 +1,6 @@
 //donante.cpp
+#ifndef __DONANTE_CPP__
+#define __DONANTE_CPP__
 #include <iostream>
 #include "donante.hpp"
 #include "donanteInterfaz.hpp"
@@ -20,3 +22,5 @@ ostream & operator <<(ostream &o , const Donante &d)
 		return o;
 	}
 }//namespace
+
+#endif

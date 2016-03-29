@@ -6,6 +6,7 @@
 #include <string>
 #include <cstdlib>
 #include "donanteInterfaz.hpp"
+#include <stdio.h>
 
 using namespace std;
 namespace ed{
@@ -45,10 +46,10 @@ public:
     string grupoSanguineo,nombre,apellidos,factorRH;
     std::cout << "Introduce los datos del nuevo donante del hospital" << std::endl;
     std::cout << "Nombre del paciente:" << std::endl;
+    getc(stdin);
     getline(cin,nombre);
     std::cout << "Apellidos del paciente:" << std::endl;
     getline(cin,apellidos);
-    fflush(stdin);
     std::cout << "Grupo Sanguineo del paciente:" << std::endl;
     std::cin >> grupoSanguineo;
     std::cout << "FactorRH del paciente:" << std::endl;
