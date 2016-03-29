@@ -8,7 +8,6 @@
 #include "donanteInterfaz.hpp"
 
 using namespace std;
-using namespace ed;
 namespace ed{
 class Donante:public ed::DonanteInterfaz
 {
@@ -25,7 +24,12 @@ public:
     _factorRH="Por defecto";
   };//constructor parametrizado
 
-  //Donante(const Donante &d){};
+  Donante(const Donante &d){
+    setNombre(d.getNombre());
+    setApellidos(d.getApellidos());
+    setFactorRH(d.getFactorRH());
+    setGrupoSanguineo(d.getGrupoSanguineo());
+  };//constructor de copia
 
   inline string getNombre()const {return _nombre;}
   inline string getApellidos()const {return _apellidos;}
@@ -94,7 +98,7 @@ public:
       else
       return false;
   }
-  
+
 
     // friend istream & operator >>(istream &i, Donante &d);
     // friend ostream & operator <<(ostream &o , const Donante &d);
