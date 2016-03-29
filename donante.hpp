@@ -100,8 +100,8 @@ public:
   }
 
 
-    // friend istream & operator >>(istream &i, Donante &d);
-    // friend ostream & operator <<(ostream &o , const Donante &d);
+  friend istream & operator >>(istream &i, Donante &d);
+  friend ostream & operator <<(ostream &o , const Donante &d);
 
 
 };//class

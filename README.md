@@ -4,7 +4,6 @@ Primera Parte
 
 Falta
   - Definir las correcciones de errores para las variables, es decir,que si meto un valor que no pueda ser que me de un error.
-  - Sobrecarga de operadores amigos << y >>
   - Asegurarse que el <= esta correcto
 
 Segunda Parte

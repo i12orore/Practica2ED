@@ -8,29 +8,15 @@ namespace ed{
 
 istream & operator >>(istream &i, Donante &d)
 		{
-      string grupoSanguineo,nombre,apellidos,factorRH;
-      std::cout << "Introduce los datos del nuevo donante del hospital" << std::endl;
-      std::cout << "Nombre del paciente:" << std::endl;
-      getline(cin,nombre);
-      std::cout << "Apellidos del paciente:" << std::endl;
-      getline(cin,apellidos);
-      std::cout << "Grupo Sanguineo del paciente:" << std::endl;
-      std::cin >> grupoSanguineo;
-      std::cout << "FactorRH del paciente:" << std::endl;
-      std::cin >> factorRH;
-      d.setNombre(nombre);
-      d.setApellidos(apellidos);
-      d.setGrupoSanguineo(grupoSanguineo);
-      d.setFactorRH(factorRH);
-  //    i>>nombre>>apellidos>grupoSanguineo>>factorRH;
+      cout<<"Introduce valores para Nombre, apellidos, grupo sanguineo y factor RH"<<endl;
+      i>> d._nombre>> d._apellidos>>d._grupoSanguineo>>d._factorRH;
+      i.ignore();
 		return i;
 		}
 
-		//Funcion <<
-//
-// ostream & operator <<(ostream &o , const Donante &d)
-// 	{
-// 		o<<"Donante --->"<<endl<<d.getNombre()<<endl<<d.getApellidos()<<endl<<d.getGrupoSanguineo()<<endl<<d.getFactorRH()<<endl;
-// 		return o;
-// 	}
+ostream & operator <<(ostream &o , const Donante &d)
+	{
+		o<<"Donante --->"<<endl<<d._nombre<<endl<<d._apellidos<<endl<<d._grupoSanguineo<<endl<<d._factorRH<<endl;
+		return o;
+	}
 }//namespace
