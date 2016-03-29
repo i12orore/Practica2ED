@@ -8,10 +8,8 @@ Falta
 
 Segunda Parte
 
-Completo
-  - Declarar 3 donantes
-
 Falta
+  - Limpiar buffer para que me lea bien los donantes
   - Crear el menu para que:
     Lea un donante
     Modifique un donante

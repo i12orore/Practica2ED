@@ -48,6 +48,7 @@ public:
     getline(cin,nombre);
     std::cout << "Apellidos del paciente:" << std::endl;
     getline(cin,apellidos);
+    fflush(stdin);
     std::cout << "Grupo Sanguineo del paciente:" << std::endl;
     std::cin >> grupoSanguineo;
     std::cout << "FactorRH del paciente:" << std::endl;
