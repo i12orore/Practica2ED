@@ -1,16 +1,18 @@
 # Practica2ED
 
 Primera Parte
-Falta
+
+*Falta
   - Definir las correcciones de errores para las variables, es decir,que si meto un valor que no pueda ser que me de un error.
   - Hacer el constructor de copia
   - Sobrecarga de operadores amigos << y >>
   - Asegurarse que el <= esta correcto
-  
+
 Segunda Parte
-Completo
+
+*Completo
   - Declarar 3 donantes
-Falta
+*Falta
   - Mostrar el uso del constructor de copia
   - Crear el menu para que:
     Lea un donante
@@ -18,6 +20,6 @@ Falta
     Escriba un donante
     Compare lexicograficamente los donantes
     Fin del programa
-    
+
 Tercera Parte
-Aun queda.
+*Aun queda.
