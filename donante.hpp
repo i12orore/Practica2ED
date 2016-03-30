@@ -44,16 +44,34 @@ public:
 
   inline void leerDonante(){
     string grupoSanguineo,nombre,apellidos,factorRH;
+    int aux=0;
     std::cout << "Introduce los datos del nuevo donante del hospital" << std::endl;
     std::cout << "Nombre del paciente:" << std::endl;
     getc(stdin);
     getline(cin,nombre);
     std::cout << "Apellidos del paciente:" << std::endl;
     getline(cin,apellidos);
-    std::cout << "Grupo Sanguineo del paciente:" << std::endl;
+    do{
+    std::cout << "Grupo Sanguineo del paciente(valores permitidos: 0,A,B,AB):" << std::endl;
     std::cin >> grupoSanguineo;
-    std::cout << "FactorRH del paciente:" << std::endl;
+    if ((grupoSanguineo=="0")||(grupoSanguineo==" ")||(grupoSanguineo=="A")||(grupoSanguineo=="B")||(grupoSanguineo=="AB")){
+      aux=1;
+    }
+    else{
+      std::cout << "Error, vuelvelo a introducir" << std::endl;
+    }
+    }while(aux==0);
+    aux=0;
+    do{
+    std::cout << "FactorRH del paciente(valores permitidos: Positivo,Negativo):" << std::endl;
     std::cin >> factorRH;
+    if ((factorRH=="Positivo")||(factorRH==" ")||(factorRH=="Negativo")){
+      aux=1;
+    }
+    else{
+      std::cout << "Error, vuelvelo a introducir" << std::endl;
+    }
+    }while(aux==0);
     setNombre(nombre);
     setApellidos(apellidos);
     setGrupoSanguineo(grupoSanguineo);
