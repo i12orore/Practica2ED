@@ -12,11 +12,11 @@ namespace ed{
 class DonantesInterfaz
 {
 public:
-  virtual void setComprobarSiHayDonantes(const list <Donante> l) =0;
+  virtual bool isEmpty(const list <Donante> l) =0;
   virtual Donante setBuscarDonante(const list <Donante> l) =0;
 
-  virtual Donante getIntroducirDonante()const =0;
-  virtual Donante getBorrarDonante()const =0;
+  virtual void insertFirst(Donante d)const =0;
+  virtual void deleteFirst()const =0;
 
 };
 }

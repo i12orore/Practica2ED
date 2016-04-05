@@ -20,6 +20,32 @@ private:
 public:
   Donantes();
 
+  int capacity(){
+    _listaDeDonantes.size();
+  }
+
+  int nItems(){
+    for (int i = 0; i < capacity(); i++) {
+      if(_listaDeDonantes[i].getFactorRH()=="Por Defecto")
+        return i-1;
+    }
+  }
+
+  bool isFull(){
+    if(capacity()==nItems())
+  }
+
+  bool isEmpty(const list <Donante> l);
+  Donante setBuscarDonante(const list <Donante> l);
+
+  void insertFirst(Donante d){
+    if()
+
+
+  }
+  void deleteFirst();
+
+
 
 
 
