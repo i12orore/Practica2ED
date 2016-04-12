@@ -1,0 +1,514 @@
+\hypertarget{classed_1_1Donante}{}\section{ed\+:\+:Donante Class Reference}
+\label{classed_1_1Donante}\index{ed\+::\+Donante@{ed\+::\+Donante}}
+
+
+Definición de la clase \hyperlink{classed_1_1Donante}{Donante}.  
+
+
+
+
+{\ttfamily \#include $<$donante.\+hpp$>$}
+
+
+
+Inheritance diagram for ed\+:\+:Donante\+:
+% FIG 0
+
+
+Collaboration diagram for ed\+:\+:Donante\+:
+% FIG 1
+\subsection*{Constructores de la clase Donante}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classed_1_1Donante_a2847e02d165f0850b1917b739e2ef68a}{Donante} ()
+\begin{DoxyCompactList}\small\item\em Contructor que crea un \hyperlink{classed_1_1Donante}{Donante} a partir de un nombre, unos apellidos, un grupo sanguineo y un factor R\+H. \end{DoxyCompactList}\item 
+\hyperlink{classed_1_1Donante_a5c2382627f63be7fc3570028d45a408c}{Donante} (const \hyperlink{classed_1_1Donante}{Donante} \&d)
+\begin{DoxyCompactList}\small\item\em Contructor que crea un \hyperlink{classed_1_1Donante}{Donante} a partir de otro \hyperlink{classed_1_1Donante}{Donante} pasado por referencia. \end{DoxyCompactList}\item 
+string \hyperlink{classed_1_1Donante_a6ee5ef3051ee5e87aecefbbb68907d4a}{get\+Nombre} () const 
+\begin{DoxyCompactList}\small\item\em Devuelve el nombre de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+string \hyperlink{classed_1_1Donante_ac541ce97eab93e010d54ceecae3a59c5}{get\+Apellidos} () const 
+\begin{DoxyCompactList}\small\item\em Devuelve los apellidos de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+string \hyperlink{classed_1_1Donante_a6a6d49990afd2da9908df86462457049}{get\+Grupo\+Sanguineo} () const 
+\begin{DoxyCompactList}\small\item\em Devuelve el grupo sanguineo de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+string \hyperlink{classed_1_1Donante_a61c107f22340497f4bf5169997be5ddc}{get\+Factor\+R\+H} () const 
+\begin{DoxyCompactList}\small\item\em Devuelve el factor\+R\+H de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}{set\+Nombre} (string nombre)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}{set\+Apellidos} (string apellidos)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}{set\+Grupo\+Sanguineo} (string grupo\+Sanguineo)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}{set\+Factor\+R\+H} (string factor\+R\+H)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_a12931bcd4d8f7dec7edb34461c56d1c1}{leer\+Donante} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{classed_1_1Donante_a5d4af7b0bb9faa1c81d4f657d49e25ad}{escribir\+Donante} ()
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+\hyperlink{classed_1_1Donante}{Donante} \& \hyperlink{classed_1_1Donante_a476ac5fdde0d6571dcceb8f70e501f60}{operator=} (const \hyperlink{classed_1_1Donante}{Donante} \&d1)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+bool \hyperlink{classed_1_1Donante_a321032cdd8d787c9c9048a1bc6b4b126}{operator==} (const \hyperlink{classed_1_1Donante}{Donante} \&d1)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+bool \hyperlink{classed_1_1Donante_ac0d4554f2340d0bd3e986ac193405fda}{operator$<$=} (const \hyperlink{classed_1_1Donante}{Donante} \&d1)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+istream \& \hyperlink{classed_1_1Donante_a7dff9621f371c9f8270f0fca4ecc3fe9}{operator$>$$>$} (istream \&i, \hyperlink{classed_1_1Donante}{Donante} \&d)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+ostream \& \hyperlink{classed_1_1Donante_abf8236c24c2ea46e467e08b755f2a371}{operator$<$$<$} (ostream \&o, const \hyperlink{classed_1_1Donante}{Donante} \&d)
+\begin{DoxyCompactList}\small\item\em Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+Definición de la clase \hyperlink{classed_1_1Donante}{Donante}. 
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classed_1_1Donante_a2847e02d165f0850b1917b739e2ef68a}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!Donante@{Donante}}
+\index{Donante@{Donante}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{Donante}]{\setlength{\rightskip}{0pt plus 5cm}ed\+::\+Donante\+::\+Donante (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a2847e02d165f0850b1917b739e2ef68a}
+
+
+Contructor que crea un \hyperlink{classed_1_1Donante}{Donante} a partir de un nombre, unos apellidos, un grupo sanguineo y un factor R\+H. 
+
+\begin{DoxyAttention}{Attention}
+Función sobrecargada 
+\end{DoxyAttention}
+\begin{DoxyNote}{Note}
+Los parámetros tienen valores por defecto 
+\end{DoxyNote}
+
+\begin{DoxyParams}{Parameters}
+{\em valores} & Nombre, Apellidos, Factor\+R\+H y Grupo Sanguineo \\
+\hline
+{\em grado} & int, valor por defecto 0 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Ninguna 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}{set\+Nombre()}, \hyperlink{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}{set\+Apellidos()}, \hyperlink{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}{set\+Factor\+R\+H()}, \hyperlink{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}{set\+Grupo\+Sanguineo()} 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_a5c2382627f63be7fc3570028d45a408c}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!Donante@{Donante}}
+\index{Donante@{Donante}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{Donante}]{\setlength{\rightskip}{0pt plus 5cm}ed\+::\+Donante\+::\+Donante (
+\begin{DoxyParamCaption}
+\item[{const {\bf Donante} \&}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a5c2382627f63be7fc3570028d45a408c}
+
+
+Contructor que crea un \hyperlink{classed_1_1Donante}{Donante} a partir de otro \hyperlink{classed_1_1Donante}{Donante} pasado por referencia. 
+
+\begin{DoxyAttention}{Attention}
+Función sobrecargada 
+\end{DoxyAttention}
+
+\begin{DoxyParams}{Parameters}
+{\em p} & \hyperlink{classed_1_1Donante}{Donante}, \hyperlink{classed_1_1Donante}{Donante} pasado por referencia \\
+\hline
+\end{DoxyParams}
+\begin{DoxyPrecond}{Precondition}
+Ninguna 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}{set\+Nombre()}, \hyperlink{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}{set\+Apellidos()}, \hyperlink{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}{set\+Factor\+R\+H()}, \hyperlink{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}{set\+Grupo\+Sanguineo()} 
+\end{DoxySeeAlso}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classed_1_1Donante_a5d4af7b0bb9faa1c81d4f657d49e25ad}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!escribir\+Donante@{escribir\+Donante}}
+\index{escribir\+Donante@{escribir\+Donante}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{escribir\+Donante}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::escribir\+Donante (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a5d4af7b0bb9faa1c81d4f657d49e25ad}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_ac541ce97eab93e010d54ceecae3a59c5}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!get\+Apellidos@{get\+Apellidos}}
+\index{get\+Apellidos@{get\+Apellidos}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{get\+Apellidos}]{\setlength{\rightskip}{0pt plus 5cm}string ed\+::\+Donante\+::get\+Apellidos (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_ac541ce97eab93e010d54ceecae3a59c5}
+
+
+Devuelve los apellidos de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_ac541ce97eab93e010d54ceecae3a59c5}{get\+Apellidos()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_a61c107f22340497f4bf5169997be5ddc}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!get\+Factor\+R\+H@{get\+Factor\+R\+H}}
+\index{get\+Factor\+R\+H@{get\+Factor\+R\+H}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{get\+Factor\+R\+H}]{\setlength{\rightskip}{0pt plus 5cm}string ed\+::\+Donante\+::get\+Factor\+R\+H (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_a61c107f22340497f4bf5169997be5ddc}
+
+
+Devuelve el factor\+R\+H de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_a61c107f22340497f4bf5169997be5ddc}{get\+Factor\+R\+H()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_a6a6d49990afd2da9908df86462457049}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!get\+Grupo\+Sanguineo@{get\+Grupo\+Sanguineo}}
+\index{get\+Grupo\+Sanguineo@{get\+Grupo\+Sanguineo}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{get\+Grupo\+Sanguineo}]{\setlength{\rightskip}{0pt plus 5cm}string ed\+::\+Donante\+::get\+Grupo\+Sanguineo (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_a6a6d49990afd2da9908df86462457049}
+
+
+Devuelve el grupo sanguineo de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_a6a6d49990afd2da9908df86462457049}{get\+Grupo\+Sanguineo()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_a6ee5ef3051ee5e87aecefbbb68907d4a}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!get\+Nombre@{get\+Nombre}}
+\index{get\+Nombre@{get\+Nombre}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{get\+Nombre}]{\setlength{\rightskip}{0pt plus 5cm}string ed\+::\+Donante\+::get\+Nombre (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_a6ee5ef3051ee5e87aecefbbb68907d4a}
+
+
+Devuelve el nombre de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_a6ee5ef3051ee5e87aecefbbb68907d4a}{get\+Nombre()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_a12931bcd4d8f7dec7edb34461c56d1c1}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!leer\+Donante@{leer\+Donante}}
+\index{leer\+Donante@{leer\+Donante}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{leer\+Donante}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::leer\+Donante (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a12931bcd4d8f7dec7edb34461c56d1c1}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_a12931bcd4d8f7dec7edb34461c56d1c1}{leer\+Donante()} 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_ac0d4554f2340d0bd3e986ac193405fda}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!operator$<$=@{operator$<$=}}
+\index{operator$<$=@{operator$<$=}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{operator$<$=}]{\setlength{\rightskip}{0pt plus 5cm}bool ed\+::\+Donante\+::operator$<$= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Donante} \&}]{d1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_ac0d4554f2340d0bd3e986ac193405fda}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_a476ac5fdde0d6571dcceb8f70e501f60}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!operator=@{operator=}}
+\index{operator=@{operator=}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{operator=}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Donante}\& ed\+::\+Donante\+::operator= (
+\begin{DoxyParamCaption}
+\item[{const {\bf Donante} \&}]{d1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a476ac5fdde0d6571dcceb8f70e501f60}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_a321032cdd8d787c9c9048a1bc6b4b126}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!operator==@{operator==}}
+\index{operator==@{operator==}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{operator==}]{\setlength{\rightskip}{0pt plus 5cm}bool ed\+::\+Donante\+::operator== (
+\begin{DoxyParamCaption}
+\item[{const {\bf Donante} \&}]{d1}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}}\label{classed_1_1Donante_a321032cdd8d787c9c9048a1bc6b4b126}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!set\+Apellidos@{set\+Apellidos}}
+\index{set\+Apellidos@{set\+Apellidos}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{set\+Apellidos}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::set\+Apellidos (
+\begin{DoxyParamCaption}
+\item[{string}]{apellidos}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_a6797583f55c556752cb65a18c662b661}{set\+Apellidos()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!set\+Factor\+R\+H@{set\+Factor\+R\+H}}
+\index{set\+Factor\+R\+H@{set\+Factor\+R\+H}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{set\+Factor\+R\+H}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::set\+Factor\+R\+H (
+\begin{DoxyParamCaption}
+\item[{string}]{factor\+R\+H}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_aab5b318278d03aa0e12d185fd4748264}{set\+Factor\+R\+H()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!set\+Grupo\+Sanguineo@{set\+Grupo\+Sanguineo}}
+\index{set\+Grupo\+Sanguineo@{set\+Grupo\+Sanguineo}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{set\+Grupo\+Sanguineo}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::set\+Grupo\+Sanguineo (
+\begin{DoxyParamCaption}
+\item[{string}]{grupo\+Sanguineo}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_ace275b514b6e1061655fd337b4c45a4a}{set\+Grupo\+Sanguineo()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+\hypertarget{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!set\+Nombre@{set\+Nombre}}
+\index{set\+Nombre@{set\+Nombre}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{set\+Nombre}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::\+Donante\+::set\+Nombre (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}\label{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+\hyperlink{classed_1_1Donante_adead6c5d275bfc74e73a0ceded1219a6}{set\+Nombre()} 
+\end{DoxySeeAlso}
+
+
+Implements \hyperlink{classed_1_1DonanteInterfaz}{ed\+::\+Donante\+Interfaz}.
+
+
+
+\subsection{Friends And Related Function Documentation}
+\hypertarget{classed_1_1Donante_abf8236c24c2ea46e467e08b755f2a371}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{o, }
+\item[{const {\bf Donante} \&}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\label{classed_1_1Donante_abf8236c24c2ea46e467e08b755f2a371}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{classed_1_1Donante_a7dff9621f371c9f8270f0fca4ecc3fe9}{}\index{ed\+::\+Donante@{ed\+::\+Donante}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ed\+::\+Donante@{ed\+::\+Donante}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}istream\& operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{istream \&}]{i, }
+\item[{{\bf Donante} \&}]{d}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [friend]}}\label{classed_1_1Donante_a7dff9621f371c9f8270f0fca4ecc3fe9}
+
+
+Devuelve el coeficiente de un \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+donante.\+hpp\end{DoxyCompactItemize}

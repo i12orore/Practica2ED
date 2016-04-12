@@ -1,0 +1,20 @@
+\hypertarget{structnodo}{}\section{nodo Struct Reference}
+\label{structnodo}\index{nodo@{nodo}}
+
+
+Collaboration diagram for nodo\+:
+% FIG 0
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{structnodo_aedd238653f4ff8783052398974c7c244}{}\hyperlink{classed_1_1Donante}{Donante} {\bfseries nro}\label{structnodo_aedd238653f4ff8783052398974c7c244}
+
+\item 
+\hypertarget{structnodo_af6d173b5079894b9470d2eb477bdd72d}{}struct \hyperlink{structed_1_1nodo}{nodo} $\ast$ {\bfseries sgte}\label{structnodo_af6d173b5079894b9470d2eb477bdd72d}
+
+\end{DoxyCompactItemize}
+
+
+The documentation for this struct was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+prueba\+Lista.\+cpp\end{DoxyCompactItemize}

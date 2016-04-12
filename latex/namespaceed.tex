@@ -1,0 +1,254 @@
+\hypertarget{namespaceed}{}\section{ed Namespace Reference}
+\label{namespaceed}\index{ed@{ed}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classed_1_1Donante}{Donante}
+\begin{DoxyCompactList}\small\item\em Definición de la clase \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+class \hyperlink{classed_1_1DonanteInterfaz}{Donante\+Interfaz}
+\item 
+class \hyperlink{classed_1_1DonantesInterfaz}{Donantes\+Interfaz}
+\item 
+struct \hyperlink{structed_1_1nodo}{nodo}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+\hypertarget{namespaceed_ab448c11aaf2782c1e95470f960f3341e}{}typedef struct \hyperlink{structed_1_1nodo}{nodo} $\ast$ {\bfseries Tlista}\label{namespaceed_ab448c11aaf2782c1e95470f960f3341e}
+
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+istream \& \hyperlink{namespaceed_aaf8c6865efded7cc4c17190655e2678f}{operator$>$$>$} (istream \&i, \hyperlink{classed_1_1Donante}{Donante} \&d)
+\item 
+ostream \& \hyperlink{namespaceed_aafbee410537c67960ecd31eb2529fab7}{operator$<$$<$} (ostream \&o, const \hyperlink{classed_1_1Donante}{Donante} \&d)
+\item 
+void \hyperlink{namespaceed_aaab35db2b702b1205f6a432d73877757}{insertar\+Inicio} (\hyperlink{structed_1_1nodo}{Tlista} \&lista, \hyperlink{classed_1_1Donante}{Donante} valor)
+\begin{DoxyCompactList}\small\item\em Inserta un \hyperlink{classed_1_1Donante}{Donante} al inicio. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_a428d4888edcfccfb7a29f1158ca7a202}{insertar\+Final} (\hyperlink{structed_1_1nodo}{Tlista} \&lista, \hyperlink{classed_1_1Donante}{Donante} valor)
+\begin{DoxyCompactList}\small\item\em Inserta al final. \end{DoxyCompactList}\item 
+int \hyperlink{namespaceed_af095e3a306a84ee959dd9b4c40a1c3e4}{insertar\+Antes\+Despues} ()
+\begin{DoxyCompactList}\small\item\em Para ver sin introducir delante o detras de X \hyperlink{classed_1_1Donante}{Donante}. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_aa63c9b895fad0470305bc5c4a9671ddb}{insertar\+Elemento} (\hyperlink{structed_1_1nodo}{Tlista} \&lista, \hyperlink{classed_1_1Donante}{Donante} valor, int pos)
+\begin{DoxyCompactList}\small\item\em Inserta en una posición exacta. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_a366da3a75bd476b2115e21af04cd1c88}{buscar\+Elemento} (\hyperlink{structed_1_1nodo}{Tlista} lista, string valor)
+\begin{DoxyCompactList}\small\item\em Busca un elemnto por su nombre. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_ad87c13f515ffef550a49d3bb9d619744}{buscar\+Elemento\+A} (\hyperlink{structed_1_1nodo}{Tlista} lista, string valor)
+\begin{DoxyCompactList}\small\item\em busca un donante por su apellido \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_a0c58812628351496f55163eb0874d760}{reportar\+Lista} (\hyperlink{structed_1_1nodo}{Tlista} lista)
+\begin{DoxyCompactList}\small\item\em Devuelve la lista. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_a2f9ad864607e928ff02c22542948b729}{eliminar\+Elemento} (\hyperlink{structed_1_1nodo}{Tlista} \&lista, \hyperlink{classed_1_1Donante}{Donante} valor)
+\begin{DoxyCompactList}\small\item\em Elimina un elemento de una lista. \end{DoxyCompactList}\item 
+void \hyperlink{namespaceed_a5ac121db2f2aea4d060b073af5a80555}{elimina\+Repetidos} (\hyperlink{structed_1_1nodo}{Tlista} \&lista, \hyperlink{classed_1_1Donante}{Donante} valor)
+\begin{DoxyCompactList}\small\item\em Elimina los repetidos. \end{DoxyCompactList}\item 
+\hypertarget{namespaceed_a3294a2539309af021437a7d4dd542bea}{}void \hyperlink{namespaceed_a3294a2539309af021437a7d4dd542bea}{menu1} ()\label{namespaceed_a3294a2539309af021437a7d4dd542bea}
+
+\begin{DoxyCompactList}\small\item\em Menu para el programa. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\begin{DoxyAttention}{Attention}
+Se incluye la clase \hyperlink{classed_1_1Donante}{Donante} dentro del espacio de nombre ed 
+\end{DoxyAttention}
+
+
+\subsection{Function Documentation}
+\hypertarget{namespaceed_a366da3a75bd476b2115e21af04cd1c88}{}\index{ed@{ed}!buscar\+Elemento@{buscar\+Elemento}}
+\index{buscar\+Elemento@{buscar\+Elemento}!ed@{ed}}
+\subsubsection[{buscar\+Elemento}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::buscar\+Elemento (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista}}]{lista, }
+\item[{string}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_a366da3a75bd476b2115e21af04cd1c88}
+
+
+Busca un elemnto por su nombre. 
+
+\begin{DoxyPrecond}{Precondition}
+Que exista una lista y se le pase un valor para comparar 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_ad87c13f515ffef550a49d3bb9d619744}{}\index{ed@{ed}!buscar\+Elemento\+A@{buscar\+Elemento\+A}}
+\index{buscar\+Elemento\+A@{buscar\+Elemento\+A}!ed@{ed}}
+\subsubsection[{buscar\+Elemento\+A}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::buscar\+Elemento\+A (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista}}]{lista, }
+\item[{string}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_ad87c13f515ffef550a49d3bb9d619744}
+
+
+busca un donante por su apellido 
+
+\begin{DoxyPrecond}{Precondition}
+Una lista y el valor del apellido 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_a2f9ad864607e928ff02c22542948b729}{}\index{ed@{ed}!eliminar\+Elemento@{eliminar\+Elemento}}
+\index{eliminar\+Elemento@{eliminar\+Elemento}!ed@{ed}}
+\subsubsection[{eliminar\+Elemento}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::eliminar\+Elemento (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista} \&}]{lista, }
+\item[{{\bf Donante}}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_a2f9ad864607e928ff02c22542948b729}
+
+
+Elimina un elemento de una lista. 
+
+\begin{DoxyPrecond}{Precondition}
+Una lista y un valor de \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_a5ac121db2f2aea4d060b073af5a80555}{}\index{ed@{ed}!elimina\+Repetidos@{elimina\+Repetidos}}
+\index{elimina\+Repetidos@{elimina\+Repetidos}!ed@{ed}}
+\subsubsection[{elimina\+Repetidos}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::elimina\+Repetidos (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista} \&}]{lista, }
+\item[{{\bf Donante}}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_a5ac121db2f2aea4d060b073af5a80555}
+
+
+Elimina los repetidos. 
+
+\begin{DoxyPrecond}{Precondition}
+Necesita una lista y un valor para donante 
+\end{DoxyPrecond}
+\hypertarget{namespaceed_af095e3a306a84ee959dd9b4c40a1c3e4}{}\index{ed@{ed}!insertar\+Antes\+Despues@{insertar\+Antes\+Despues}}
+\index{insertar\+Antes\+Despues@{insertar\+Antes\+Despues}!ed@{ed}}
+\subsubsection[{insertar\+Antes\+Despues}]{\setlength{\rightskip}{0pt plus 5cm}int ed\+::insertar\+Antes\+Despues (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{namespaceed_af095e3a306a84ee959dd9b4c40a1c3e4}
+
+
+Para ver sin introducir delante o detras de X \hyperlink{classed_1_1Donante}{Donante}. 
+
+\begin{DoxyReturn}{Returns}
+devuelve la posición donde se va a introducir 
+\end{DoxyReturn}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_aa63c9b895fad0470305bc5c4a9671ddb}{}\index{ed@{ed}!insertar\+Elemento@{insertar\+Elemento}}
+\index{insertar\+Elemento@{insertar\+Elemento}!ed@{ed}}
+\subsubsection[{insertar\+Elemento}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::insertar\+Elemento (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista} \&}]{lista, }
+\item[{{\bf Donante}}]{valor, }
+\item[{int}]{pos}
+\end{DoxyParamCaption}
+)}\label{namespaceed_aa63c9b895fad0470305bc5c4a9671ddb}
+
+
+Inserta en una posición exacta. 
+
+\begin{DoxyPrecond}{Precondition}
+Se le pasa la lista, el valor del D\+Onante y la posicion donde se va a insertar. 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_a428d4888edcfccfb7a29f1158ca7a202}{}\index{ed@{ed}!insertar\+Final@{insertar\+Final}}
+\index{insertar\+Final@{insertar\+Final}!ed@{ed}}
+\subsubsection[{insertar\+Final}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::insertar\+Final (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista} \&}]{lista, }
+\item[{{\bf Donante}}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_a428d4888edcfccfb7a29f1158ca7a202}
+
+
+Inserta al final. 
+
+\begin{DoxyPrecond}{Precondition}
+Hay que introducir la lista y el valor de \hyperlink{classed_1_1Donante}{Donante} que se va a introducir 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_aaab35db2b702b1205f6a432d73877757}{}\index{ed@{ed}!insertar\+Inicio@{insertar\+Inicio}}
+\index{insertar\+Inicio@{insertar\+Inicio}!ed@{ed}}
+\subsubsection[{insertar\+Inicio}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::insertar\+Inicio (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista} \&}]{lista, }
+\item[{{\bf Donante}}]{valor}
+\end{DoxyParamCaption}
+)}\label{namespaceed_aaab35db2b702b1205f6a432d73877757}
+
+
+Inserta un \hyperlink{classed_1_1Donante}{Donante} al inicio. 
+
+\begin{DoxyPrecond}{Precondition}
+Hay que introducir la lista y el valor de \hyperlink{classed_1_1Donante}{Donante} que se va a introducir 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\hypertarget{namespaceed_aafbee410537c67960ecd31eb2529fab7}{}\index{ed@{ed}!operator$<$$<$@{operator$<$$<$}}
+\index{operator$<$$<$@{operator$<$$<$}!ed@{ed}}
+\subsubsection[{operator$<$$<$}]{\setlength{\rightskip}{0pt plus 5cm}ostream\& ed\+::operator$<$$<$ (
+\begin{DoxyParamCaption}
+\item[{ostream \&}]{o, }
+\item[{const {\bf Donante} \&}]{d}
+\end{DoxyParamCaption}
+)}\label{namespaceed_aafbee410537c67960ecd31eb2529fab7}
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{namespaceed_aaf8c6865efded7cc4c17190655e2678f}{}\index{ed@{ed}!operator$>$$>$@{operator$>$$>$}}
+\index{operator$>$$>$@{operator$>$$>$}!ed@{ed}}
+\subsubsection[{operator$>$$>$}]{\setlength{\rightskip}{0pt plus 5cm}istream\& ed\+::operator$>$$>$ (
+\begin{DoxyParamCaption}
+\item[{istream \&}]{i, }
+\item[{{\bf Donante} \&}]{d}
+\end{DoxyParamCaption}
+)}\label{namespaceed_aaf8c6865efded7cc4c17190655e2678f}
+\begin{DoxyReturn}{Returns}
+Coeficiente de un \hyperlink{classed_1_1Donante}{Donante} 
+\end{DoxyReturn}
+\begin{DoxyPrecond}{Precondition}
+El \hyperlink{classed_1_1Donante}{Donante} debe existir anteriormente 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
+\begin{DoxySeeAlso}{See also}
+get\+Grado() 
+\end{DoxySeeAlso}
+\hypertarget{namespaceed_a0c58812628351496f55163eb0874d760}{}\index{ed@{ed}!reportar\+Lista@{reportar\+Lista}}
+\index{reportar\+Lista@{reportar\+Lista}!ed@{ed}}
+\subsubsection[{reportar\+Lista}]{\setlength{\rightskip}{0pt plus 5cm}void ed\+::reportar\+Lista (
+\begin{DoxyParamCaption}
+\item[{{\bf Tlista}}]{lista}
+\end{DoxyParamCaption}
+)}\label{namespaceed_a0c58812628351496f55163eb0874d760}
+
+
+Devuelve la lista. 
+
+\begin{DoxyPrecond}{Precondition}
+Que exista una lista 
+\end{DoxyPrecond}
+\begin{DoxyPostcond}{Postcondition}
+Ninguna 
+\end{DoxyPostcond}
